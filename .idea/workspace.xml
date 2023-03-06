@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8fc3797-0694-44ac-b0e5-db566eaa0720" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BonusService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BonusServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BonusServiceTestNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BonusServiceTestNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BonusServiceTestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +56,7 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BonusServiceTestNew.shouldCalculateForUnRegisteredAndUnderLimitTwq">
+  <component name="RunManager">
     <configuration name="BonusServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task5" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,29 +66,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BonusServiceTestNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusServiceTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task5" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BonusServiceTestNew" />
+      <option name="MAIN_CLASS_NAME" value="BonusServiceTestTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BonusServiceTestNew.shouldCalculateForUnRegisteredAndUnderLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusServiceTestTest.shouldCalculateForUnRegisteredAndUnderLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task5" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BonusServiceTestNew" />
+      <option name="MAIN_CLASS_NAME" value="BonusServiceTestTest" />
       <option name="METHOD_NAME" value="shouldCalculateForUnRegisteredAndUnderLimit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BonusServiceTestNew.shouldCalculateForUnRegisteredAndUnderLimitTwq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusServiceTestTest.shouldCalculateForUnRegisteredAndUnderLimitTwq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task5" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BonusServiceTestNew" />
+      <option name="MAIN_CLASS_NAME" value="BonusServiceTestTest" />
       <option name="METHOD_NAME" value="shouldCalculateForUnRegisteredAndUnderLimitTwq" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -115,9 +107,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BonusServiceTestNew.shouldCalculateForUnRegisteredAndUnderLimitTwq" />
-        <item itemvalue="JUnit.BonusServiceTestNew" />
-        <item itemvalue="JUnit.BonusServiceTestNew.shouldCalculateForUnRegisteredAndUnderLimit" />
+        <item itemvalue="JUnit.BonusServiceTestTest.shouldCalculateForUnRegisteredAndUnderLimitTwq" />
+        <item itemvalue="JUnit.BonusServiceTestTest" />
+        <item itemvalue="JUnit.BonusServiceTestTest.shouldCalculateForUnRegisteredAndUnderLimit" />
         <item itemvalue="JUnit.BonusServiceTest" />
         <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForRegisteredAndOverLimit" />
       </list>
