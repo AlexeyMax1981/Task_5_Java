@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8fc3797-0694-44ac-b0e5-db566eaa0720" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/BonusServiceTestNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BonusServiceTestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BonusServiceTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BonusServiceTestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,23 +41,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Алексей/IdeaProjects/task5",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Алексей/IdeaProjects/task5_2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn test" />
       <command value="mvn clean test" />
+      <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BonusServiceTestTest.shouldCalculateForUnRegisteredAndUnderLimitZ">
     <configuration name="BonusServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task5" />
       <option name="PACKAGE_NAME" value="" />
@@ -75,11 +76,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BonusServiceTestTest.shouldCalculateForUnRegisteredAndUnderLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusServiceTestTest.shouldCalculateForUnRegisteredAndUnderLimitSuper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task5" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BonusServiceTestTest" />
-      <option name="METHOD_NAME" value="shouldCalculateForUnRegisteredAndUnderLimit" />
+      <option name="METHOD_NAME" value="shouldCalculateForUnRegisteredAndUnderLimitSuper" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +96,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BonusServiceTest.shouldCalculateForRegisteredAndOverLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusServiceTestTest.shouldCalculateForUnRegisteredAndUnderLimitZ" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task5" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BonusServiceTest" />
-      <option name="METHOD_NAME" value="shouldCalculateForRegisteredAndOverLimit" />
+      <option name="MAIN_CLASS_NAME" value="BonusServiceTestTest" />
+      <option name="METHOD_NAME" value="shouldCalculateForUnRegisteredAndUnderLimitZ" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BonusServiceTestTest.shouldCalculateForUnRegisteredAndUnderLimitZ" />
+        <item itemvalue="JUnit.BonusServiceTestTest.shouldCalculateForUnRegisteredAndUnderLimitSuper" />
+        <item itemvalue="JUnit.BonusServiceTest" />
         <item itemvalue="JUnit.BonusServiceTestTest.shouldCalculateForUnRegisteredAndUnderLimitTwq" />
         <item itemvalue="JUnit.BonusServiceTestTest" />
-        <item itemvalue="JUnit.BonusServiceTestTest.shouldCalculateForUnRegisteredAndUnderLimit" />
-        <item itemvalue="JUnit.BonusServiceTest" />
-        <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForRegisteredAndOverLimit" />
       </list>
     </recent_temporary>
   </component>

@@ -11,7 +11,7 @@ public class BonusServiceTestTest {
         boolean registered = true;
         long expected = 30;
 
-        // вызываем целевой метод:
+        // вызываем целевой метод:проверка зарегестрированного на соответствие
         long actual = service.calculate(amount, registered);
 
         // производим проверку (сравниваем ожидаемый и фактический):
@@ -22,7 +22,7 @@ public class BonusServiceTestTest {
     void shouldCalculateForRegisteredAndOverLimit() {
         BonusService service = new BonusService();
 
-        // подготавливаем данные:
+        // подготавливаем данные: проверка зарегестрированного на максимум
         long amount = 1_000_000;
         boolean registered = true;
         long expected = 500;
@@ -36,6 +36,7 @@ public class BonusServiceTestTest {
 
     @org.junit.jupiter.api.Test
     void shouldCalculateForUnRegisteredAndUnderLimit() {
+        //Проверка незарегестрированного на соответствие
         BonusService service = new BonusService();
         long expected = 20;
         long actual = service.calculate(2000, false);
@@ -44,13 +45,28 @@ public class BonusServiceTestTest {
     }
 
     @org.junit.jupiter.api.Test
-    void shouldCalculateForUnRegisteredAndUnderLimitTwq() {
+    void shouldCalculateForUnRegisteredAndUnderLimitSuper() {
         BonusService service = new BonusService();
-        long amount = 2000;
+        //Проверка незарегестрированного на предел бонусов
+        long amount = 2_000_000;
         boolean registered = false;
-        long expected = 20;
+        long expected = 500;
         long actual = service.calculate(amount, registered);
         assertEquals(expected, actual);
 
     }
+
+    @org.junit.jupiter.api.Test
+    void shouldCalculateForUnRegisteredAndUnderLimitZ(){
+        //проверка по границе
+        BonusService service = new BonusService();
+        long amount = 50000;
+        boolean registered = true;
+        long expected = 500;
+        long actual = service.calculate(amount, registered);
+        assertEquals(expected, actual);
+    }
+
+
+
 }
